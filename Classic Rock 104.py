@@ -35,9 +35,9 @@ while os.path.getsize('Classic Rock 104.csv') <= 1000000000:
 accountSID = 'ACd22b76bd9380557f58caa4b98b9f2698'
 authToken = 'a4be8140064358da8791e48a53a6a699'
 twilioCli = TwilioRestClient(accountSID, authToken)
-myTwilioNumber = '+18125611827'
-myCellPhone = '+18122303500'
-message = twilioCli.messages.create(body='Congrats! You now have 1 Gb of Classci Rock radio station data.', from_=myTwilioNumber, to=myCellPhone)
+myTwilioNumber = '+xxx'
+myCellPhone = '+xxx'
+message = twilioCli.messages.create(body='Congrats! You now have 1 Gb of Classic Rock radio station data.', from_=myTwilioNumber, to=myCellPhone)
                                     
 
 #spoke to owner Jamie Daveson (Davidson?) over the phone. He said it was okay to
