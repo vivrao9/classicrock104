@@ -4,7 +4,7 @@ from twilio.rest import TwilioRestClient
 XHRrequest = 'https://api.live365.com/v1/station/b47785?cb=180712'
 
 headers = {
-    "User-Agent": "my [personal] web scraping program. contact me at vivrao9@gmail.com"
+    "User-Agent": "my [personal] web scraping program. contact me at xxx@gmail.com"
 }
 
 while os.path.getsize('Classic Rock 104.csv') <= 1000000000:
