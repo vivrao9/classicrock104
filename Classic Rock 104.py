@@ -32,8 +32,8 @@ while os.path.getsize('Classic Rock 104.csv') <= 1000000000:
     outputFile.close()
     time.sleep(120)
 
-accountSID = 'ACd22b76bd9380557f58caa4b98b9f2698'
-authToken = 'a4be8140064358da8791e48a53a6a699'
+accountSID = 'xxx'
+authToken = 'xxx'
 twilioCli = TwilioRestClient(accountSID, authToken)
 myTwilioNumber = '+xxx'
 myCellPhone = '+xxx'
